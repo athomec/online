@@ -6350,7 +6350,7 @@
         if (observableSection) {
           event.preventDefault();
           const root = this._rootElement || window;
-          const height = observableSection.offsetTop - this._element.offsetTop;
+          const height = observableSection.offsetTop - this._element.offsetTop - 100;//自訂offset變量100
 
           if (root.scrollTo) {
             root.scrollTo({

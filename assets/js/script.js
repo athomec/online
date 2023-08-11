@@ -11,7 +11,7 @@ $(function () {//JS開頭
 	$('.js-toggle-btn button').click(function () {
 		$(this).toggleClass('active');
 	})
-	//菜單scrollspy監聽事件
+	//菜單scrollspy監聽事件(menu左滑)
 	const firstScrollSpyEl = document.querySelector('[data-bs-spy="scroll"]');
 	const navContainer = document.querySelector('.js-nav');
 
@@ -24,4 +24,5 @@ $(function () {//JS開頭
 			navContainer.scrollLeft = 0;
 		}
 	});
+
 })//JS尾端	

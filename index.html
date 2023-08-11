@@ -18,7 +18,8 @@
     <!--css設定-->
 </head>
 
-	<body id="all">
+	<body id="all" data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-root-margin="0px 0px -50%"
+	data-bs-smooth-scroll="true" tabindex="0">
 		<div id="loading" class="loading bg-white rounded-lg" style="display:none;">
 			<img src="./assets/images/loading.gif" alt="loading">
 		</div>
@@ -87,6 +88,7 @@
 	</div>
 </div>
 <!--主選單開始-->
+
 <nav class="navbar bg-white mb-3 p-0 js-navbar">
 	<ul class="nav scrollbar scrolly-none js-nav" role="tablist">
 		<li class="nav-item">
@@ -111,8 +113,7 @@
 	<button class="navbar-btn btn js-navbar-btn"><img src="./assets/images/ic-arrow.svg" alt="展開選單"></button>
 </nav>
 <!--主選單結束-->
-<div class="container" data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-root-margin="0px 0px -40%"
-	data-bs-smooth-scroll="true" tabindex="0">
+<div class="container">
 	<h3 class="title mb-1" id="menu1">夏季限定</h3>
 	<ul class="menu-list mb-5">
 		<li class="menu-list-item">
