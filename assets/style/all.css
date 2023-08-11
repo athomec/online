@@ -13804,8 +13804,8 @@ textarea {
   .scrollbar::-webkit-scrollbar {
     background-color: #e0e0e0;
     border-radius: 10px;
-    width: 4px;
-    height: 4px;
+    width: 3px;
+    height: 3px;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
     opacity: 0; }
@@ -13834,8 +13834,8 @@ textarea {
     transition: all 0.2s ease;
     opacity: 0; }
   .scrollbar-dark::-webkit-scrollbar {
-    width: 4px;
-    height: 4px;
+    width: 3px;
+    height: 3px;
     border-radius: 10px;
     background-color: #135988;
     -webkit-transition: all 0.2s ease;

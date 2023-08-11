@@ -12,5 +12,16 @@ $(function () {//JS開頭
 		$(this).toggleClass('active');
 	})
 	//菜單scrollspy監聽事件
-	
+	const firstScrollSpyEl = document.querySelector('[data-bs-spy="scroll"]');
+	const navContainer = document.querySelector('.js-nav');
+
+	firstScrollSpyEl.addEventListener('activate.bs.scrollspy', (event) => {
+		const activeNavLink = navContainer.querySelector('.nav-link.active');
+
+		if (activeNavLink) {
+			navContainer.scrollLeft = activeNavLink.offsetLeft - 16;
+		} else {
+			navContainer.scrollLeft = 0;
+		}
+	});
 })//JS尾端	
