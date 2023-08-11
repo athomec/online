@@ -13195,7 +13195,7 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 1rem;
+  font-size: 1.13rem;
   font-weight: 600; }
   .subtitle span {
     color: #FF9130;
@@ -14793,10 +14793,10 @@ body {
     border-radius: 5px; }
   .menu-list-title {
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 0; }
   .menu-list-caption {
-    font-weight: 600; }
+    font-weight: 500; }
   .menu-list-txt {
     font-size: 0.8rem;
     color: #7a7a7a; }
@@ -14858,7 +14858,7 @@ body {
     width: 100%; }
   .order-list-title {
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 0; }
   .order-list-caption {
     font-size: 0.8rem; }
