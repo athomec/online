@@ -10331,23 +10331,23 @@ input {
   height: 40px; }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  color: #ccc !important;
+  color: #a3a3a3 !important;
   font-size: 0.95rem !important; }
 
 input::-moz-placeholder, textarea::-moz-placeholder {
-  color: #ccc !important;
+  color: #a3a3a3 !important;
   font-size: 0.95rem !important; }
 
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-  color: #ccc !important;
+  color: #a3a3a3 !important;
   font-size: 0.95rem !important; }
 
 input::-ms-input-placeholder, textarea::-ms-input-placeholder {
-  color: #ccc !important;
+  color: #a3a3a3 !important;
   font-size: 0.95rem !important; }
 
 input::placeholder, textarea::placeholder {
-  color: #ccc !important;
+  color: #a3a3a3 !important;
   font-size: 0.95rem !important; }
 
 textarea {
